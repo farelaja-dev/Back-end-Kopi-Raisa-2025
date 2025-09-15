@@ -45,6 +45,7 @@
     "supertest": "^7.1.1"
   },
   "prisma": {
-    "schema": "src/prisma/schema.prisma"
+    "schema": "src/prisma/schema.prisma",
+    "seed": "node src/prisma/seed.js"
   }
 }
